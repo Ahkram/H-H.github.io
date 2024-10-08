@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>H&H</title>
+    <link rel="stylesheet" href="css/cssgaleria.css">
+    <link rel="shortcut icon" href="imgs/niño.png">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <div class="imagen">
+        <div class="heaven">
+            <h1>HEAVEN</h1>
+        </div>
+        <img src="imgs/niño.png" alt="Logo">
+        <div class="hell">
+            <h1>HELL</h1>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="galería.html">Galería</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contactanos.html">Contacto</a></li>
+             </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box">
+            <img src="imgs/d.jpg">
+        </div>
+        <div class="box">
+            <img src="imgs/a.jpg">
+        </div>
+        <div class="box">
+            <img src="imgs/c.jpg">
+        </div>
+
+        <body onclick="PlayAudio()">
+            <audio id="musica" autoplay controls loop>
+               <source src="imgs/song.mp3" type="audio/mpeg">
+               <h1>No compatible</h1>
+            </audio>
+           
+            <script>
+               function PlayAudio(){
+                   document.getElementById("musica").play()
+               }
+            </script>
+
+</body>
+</html>
